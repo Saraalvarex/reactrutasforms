@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Router from './components/Router';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Home/>
+    <Musica/>
+    <Cine/>  */}
+    {/* Elementos dinamicos */}
+    <h1>Pág principal</h1>
+      <Router/>
+    <h2>Pie de pagina</h2>
   </React.StrictMode>
 );
 
