@@ -7,21 +7,6 @@ export default class TablaMultiplicar extends Component {
         numeros: []
     }
 
-   mostrarTabla = (e) => {
-    e.preventDefault();
-
-    var num = parseInt(this.cajanumero.current.value);
-    console.log(num)
-    const aux=[]
-    for (let i=1; i<=10; i++){
-        let numero = parseInt(i*num);
-        aux.push(numero);
-        this.setState({
-            numeros: aux
-        }); 
-    }
-   } 
-
   render() {
     return (
       <div>

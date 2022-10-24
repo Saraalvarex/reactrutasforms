@@ -6,6 +6,7 @@ import Router from './components/Router';
 import FormSimple from './components/FormSimple';
 import Collatz from './components/Collatz';
 import TablaMultiplicar2 from './components/TablaMultiplicar2';
+import SeleccionMultipleForms from './components/SeleccionMultipleForms';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,8 +19,9 @@ root.render(
       <Router/>
     <h2>Pie de pagina</h2> 
     <FormSimple/>
-    <Collatz/>*/}
-    <TablaMultiplicar2/>
+    <Collatz/>
+    <TablaMultiplicar2/>*/}
+    <SeleccionMultipleForms/>
   </React.StrictMode>
   
 );
